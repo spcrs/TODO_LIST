@@ -1,0 +1,187 @@
+body{
+    background-image: url("download.jpg");
+    /* background-image: url("bg.jpg"); */
+
+ }
+
+ 
+h1{
+    padding: 10px;
+    /* background-color: rgb(201, 209, 216); */
+    border-radius: 45px;
+    /* width : 100%; */
+    margin : auto;
+    margin-top: 60px;
+    color: rgb(0, 67, 237);
+    text-shadow: 0px 0px 4px #000000;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.cotainer{
+    margin: auto;
+    /* color:blue */
+    width:35%;
+    text-align: center;
+    /* background-color: azure;  */
+    
+}
+
+.form{
+    /* width:100%; */
+    text-align: left;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5%;
+
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(227, 211, 160) , rgb(208, 195, 166));
+    /* background-image: url("bg.jpg"); */
+}
+
+input{
+    width: 100%;
+    /* margin-top: 10px; */
+    font-size: large;
+    padding-top:5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(117, 113, 113);
+    height: 30px;
+    color:rgb(88, 109, 128);
+    margin-left: 5px;
+}
+
+input:focus{
+    /* background-color: rgb(243, 255, 249); */
+    transform: scale(1.01);
+    transition-delay: 1sec;
+    border-bottom: 2px solid rgb(2, 2, 2);
+}
+
+.inputs, button{
+    margin:10px;
+
+}
+
+label{
+    font-size:20px;
+    color:rgb(0, 129, 241);
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px #000000;
+}
+table{
+    width : 100%;
+    font-size: medium;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* padding-left: 10px; */
+    /* margin-left: 0%; */
+    /* margin:10px; */
+    
+}
+thead, tbody,td,th{
+    padding : 0px 3px;
+    /* border:1px solid grey; */
+    text-align: left;
+   
+}
+
+.detail-head{
+    width: 50%;
+}
+
+
+td,th   {
+    padding: 10px;
+}
+
+button{
+    margin:auto;
+    display: block;
+    margin-top: 30px;
+    padding : 5px 15px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgb(202, 217, 211);
+    cursor: pointer;
+    background: 1px solid rgb(49, 231, 49);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #000000;
+    margin-bottom: 20px;
+
+    background-image: linear-gradient(to right, rgb(130, 216, 154) , rgb(168, 192, 172));
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(53, 233, 3);
+    /* text-shadow: 1px 1px 1px #000000; */
+    background-image: linear-gradient(to right, rgb(39, 190, 44) , rgb(58, 182, 95));
+
+}
+
+
+.remove{
+    /* background-color: rgb(198, 109, 109); */
+    /* background-image: linear-gradient(to right, rgb(190, 74, 74) , rgb(223, 93, 93)); */
+    color:rgb(195, 159, 159);
+    margin: 2px;
+    cursor: pointer;
+    text-align: center;
+    text-shadow: 1px 1px 1px #e90000;
+
+}
+
+table{
+    column-gap: 0ch;
+}
+
+th{
+    color: rgb(77, 33, 180);
+    font-size: large;
+    background-color: rgb(212, 216, 163);
+}
+
+tr:nth-child(even) {background: rgb(222, 224, 230)}
+tr:nth-child(odd) {background: rgb(187, 180, 155)}
+
+
+tr{
+    margin-top: 3px;
+}
+
+/* <tr>
+    <td>DIP</td>
+    <td>Project</td>
+    <td>2022-12-15</td>
+    <td class="remove">&lt;p&gt;X&lt;/p&gt;</td></tr>
+
+
+    <tr>
+    <td>c#</td>
+    <td>assignment</td>
+    <td>2022-12-19</td>
+    <td class="remove">X</td></tr> */
+
+
+/* .su{
+    color:#6db55f;
+    font-size: 200;
+    font-weight: 400;
+}
+
+.de{
+    color:blue;
+    font-size: 200;
+    font-weight: 400;
+
+}
+
+.du{
+    color:rgb(214, 125, 66);
+    font-size: 200;
+    font-weight: 400;
+} */
